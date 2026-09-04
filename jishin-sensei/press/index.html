@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jishin Sensei — Press Kit</title>
+<meta name="description" content="Press kit for Jishin Sensei, a free daily earthquake-safety quiz for people visiting or living in Japan. Facts, screenshots, artwork and contact.">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1a1a; --muted: #666; --accent: #5B9FD4; --card: #f5f7fa; --line: #e3e7ec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121417; --fg: #ececec; --muted: #9aa0a6; --card: #1d2126; --line: #2a3038; }
+  }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", "Noto Sans JP", "Malgun Gothic", "Microsoft YaHei", sans-serif;
+    line-height: 1.6;
+  }
+  main { max-width: 960px; margin: 0 auto; padding: 48px 24px; }
+  h1 { font-size: 1.8rem; margin-bottom: 4px; }
+  h2 { font-size: 1.2rem; margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); font-size: 0.9rem; }
+  .hero { display: flex; gap: 24px; align-items: center; flex-wrap: wrap; }
+  .hero img.icon { width: 96px; height: 96px; border-radius: 22px; }
+  .hero .lead { flex: 1; min-width: 260px; }
+  .cta { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-top: 12px; }
+  .btn { display: inline-block; padding: 10px 16px; border-radius: 10px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; }
+  .btn.ghost { background: transparent; color: var(--accent); border: 1.5px solid var(--accent); }
+  .qr { width: 96px; height: 96px; border-radius: 8px; background: #fff; }
+  .lines { list-style: none; padding: 0; margin: 0; }
+  .lines li { padding: 10px 14px; background: var(--card); border-radius: 10px; margin: 8px 0; }
+  .lines .lang { display: inline-block; min-width: 4.5em; font-weight: 700; color: var(--accent); }
+  .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 10px; }
+  .facts div { background: var(--card); border-radius: 10px; padding: 12px 14px; }
+  .facts b { display: block; font-size: 0.85rem; color: var(--muted); font-weight: 600; }
+  .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+  .gallery figure { margin: 0; }
+  .gallery img { width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); }
+  .gallery figcaption { font-size: 0.8rem; color: var(--muted); margin-top: 4px; }
+  .art { display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-end; }
+  .art figure { margin: 0; text-align: center; }
+  .art img { width: 160px; height: 160px; background: var(--card); border-radius: 16px; padding: 8px; }
+  .art figcaption { font-size: 0.8rem; color: var(--muted); }
+  blockquote { margin: 12px 0; padding: 12px 16px; background: var(--card); border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; }
+  footer { margin-top: 48px; font-size: 0.85rem; color: var(--muted); }
+  code { font-size: 0.9em; }
+</style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <img class="icon" src="img/icon.png" alt="Jishin Sensei app icon">
+    <div class="lead">
+      <h1>🐟 Jishin Sensei — Press Kit</h1>
+      <p class="muted">Japan Earthquake Safety Quiz · iPhone · free · English, 日本語, 한국어, 简体中文, 繁體中文</p>
+      <p>A daily earthquake-safety quiz for people visiting or living in Japan, with show-and-point emergency cards and an offline guide. Made by a solo developer in Japan.</p>
+      <div class="cta">
+        <a class="btn" href="https://apps.apple.com/app/id6799572857">Open on the App Store</a>
+        <a class="btn ghost" href="jishin-sensei-press-kit.zip">Download press kit (ZIP)</a>
+        <img class="qr" src="img/qr-appstore.png" alt="QR code linking to the App Store page">
+      </div>
+    </div>
+  </div>
+
+  <h2>One-line description</h2>
+  <ul class="lines">
+    <li><span class="lang">EN</span> One question a day on earthquake safety in Japan, with show-and-point emergency cards and an offline guide. Five languages, all free.</li>
+    <li><span class="lang">JA</span> 「地震のとき、どうする？」を1日1問で。見せて伝えるカードと、圏外でも開ける緊急時ガイドも。5言語対応、すべて無料。</li>
+    <li><span class="lang">KO</span> 하루 한 문제로 익히는 일본 지진 안전. 보여주며 전하는 카드와 오프라인 긴급 가이드까지. 5개 언어, 전부 무료.</li>
+    <li><span class="lang">ZH-Hans</span> 每天一题，学会在日本遇到地震时该怎么做。附指给对方看的会话卡和离线紧急指南。5 种语言，全部免费。</li>
+    <li><span class="lang">ZH-Hant</span> 每天一題，學會在日本遇到地震時該怎麼做。附指給對方看的會話卡和離線緊急指南。5 種語言，全部免費。</li>
+  </ul>
+
+  <h2>Boilerplate</h2>
+  <blockquote>Jishin Sensei ("Earthquake Teacher") is a free iPhone app that teaches earthquake safety in Japan one question a day. Namazu Sensei — the catfish of Japanese earthquake folklore — asks a real-life scenario each day and explains the answer with a link to the official source. The Prepare tab holds show-and-point phrase cards, a health card and a sign dictionary for the moment you need to communicate; the Emergency tab works fully offline. The app runs in English, Japanese, Korean, and Simplified and Traditional Chinese, and every part of it is free. It is made by Makoto Katano (sukunabicco), a solo developer in Japan.</blockquote>
+
+  <h2>Facts</h2>
+  <div class="facts">
+    <div><b>Platform</b>iPhone — <a href="https://apps.apple.com/app/id6799572857">App Store</a></div>
+    <div><b>Price</b>Free. Optional tips for the sensei (USD 1.99 / 4.99 / 9.99) unlock nothing</div>
+    <div><b>Launched</b>August 18, 2026 (1.0). Version 1.0.6 made everything free</div>
+    <div><b>Developer</b>Makoto Katano (sukunabicco), solo developer, Japan</div>
+    <div><b>Content</b>68 scenario questions in 5 categories, one per day. Explanations cite official sources: JMA, JNTO, Tokyo Metropolitan Government and others</div>
+    <div><b>Languages</b>English, Japanese, Korean, Simplified Chinese, Traditional Chinese</div>
+    <div><b>Prepare tab</b>Show-and-point phrase cards (read aloud, pointing boards), health card (iOS Keychain), sign dictionary (paste photo text to search), Destinations for 9 cities</div>
+    <div><b>Emergency tab</b>Works fully offline: what to do, by place, 110 / 119 / 118, 171, Japan Visitor Hotline</div>
+    <div><b>Privacy</b>No accounts, no ads, no analytics, no server. Everything stays on the device</div>
+    <div><b>Built for</b>RevenueCat Shipaton 2026</div>
+  </div>
+  <p class="muted">Jishin Sensei is not affiliated with any government body. Japan's official alert app is "Safety tips" (Japan Tourism Agency), which the app recommends installing.</p>
+
+  <h2>Screenshots</h2>
+  <p class="muted">App Store screenshots, 1.0.6. English set of eight; the first screen in each of the other four languages. Full-size PNGs (1320×2868) are in the ZIP.</p>
+  <div class="gallery">
+    <figure><img src="img/en-01.png" alt="Today: one earthquake question a day"><figcaption>1 · Today</figcaption></figure>
+    <figure><img src="img/en-02.png" alt="Answer explained with an official source"><figcaption>2 · Answer and source</figcaption></figure>
+    <figure><img src="img/en-03.png" alt="Emergency tab, works offline"><figcaption>3 · Emergency</figcaption></figure>
+    <figure><img src="img/en-04.png" alt="Destinations: pick a city for its app and tsunami risk"><figcaption>4 · Destinations</figcaption></figure>
+    <figure><img src="img/en-05.png" alt="Show-and-point phrase card, read aloud"><figcaption>5 · Phrase card</figcaption></figure>
+    <figure><img src="img/en-06.png" alt="Health card: allergies and blood type in Japanese"><figcaption>6 · Health card</figcaption></figure>
+    <figure><img src="img/en-07.png" alt="Sign dictionary: paste the sign, get the meaning"><figcaption>7 · Sign dictionary</figcaption></figure>
+    <figure><img src="img/en-08.png" alt="All 68 scenarios"><figcaption>8 · Deck</figcaption></figure>
+    <figure><img src="img/ja-01.png" alt="Japanese"><figcaption>日本語</figcaption></figure>
+    <figure><img src="img/ko-01.png" alt="Korean"><figcaption>한국어</figcaption></figure>
+    <figure><img src="img/zh-hans-01.png" alt="Simplified Chinese"><figcaption>简体中文</figcaption></figure>
+    <figure><img src="img/zh-hant-01.png" alt="Traditional Chinese"><figcaption>繁體中文</figcaption></figure>
+  </div>
+
+  <h2>Artwork</h2>
+  <div class="art">
+    <figure><img src="img/sensei-happy.png" alt="Namazu Sensei, happy"><figcaption>Namazu Sensei (happy) · 1024 px in ZIP</figcaption></figure>
+    <figure><img src="img/sensei-normal.png" alt="Namazu Sensei"><figcaption>Namazu Sensei · 1024 px in ZIP</figcaption></figure>
+    <figure><img src="img/icon.png" alt="App icon"><figcaption>App icon · 1024 px in ZIP</figcaption></figure>
+  </div>
+  <p class="muted">Artwork and screenshots may be used in coverage of the app. Please do not alter the sensei.</p>
+
+  <h2>Why a catfish, and why free</h2>
+  <p>In Japanese folklore a giant catfish (<em>namazu</em>) living beneath the earth was said to cause earthquakes; after the great Edo earthquake of 1855, hundreds of <em>namazu-e</em> prints turned the catfish into a popular character. Jishin Sensei makes him the teacher: each day he asks what you would do, then shows the official answer.</p>
+  <p>Everything in the app is free so that nothing anyone might need in an emergency sits behind a purchase. People who want to say thanks can leave a tip for the sensei in Settings; it unlocks nothing.</p>
+
+  <h2>Contact</h2>
+  <p>Press: <a href="mailto:sukunabicco@gmail.com">sukunabicco@gmail.com</a> — Makoto Katano (sukunabicco). Screenshots in other languages, review notes or a short interview are one reply away.</p>
+  <p>Support and bug reports: <a href="https://github.com/sukunabicco/sukunabicco.github.io/issues">GitHub Issues</a>.</p>
+
+  <footer>
+    <p><a href="/jishin-sensei/">Support</a> · <a href="/jishin-sensei/privacy.html">Privacy policy</a> · <a href="/jishin-sensei/terms.html">Terms of use</a> · <a href="/">sukunabicco</a></p>
+    <p>Developed by Makoto Katano (sukunabicco)</p>
+  </footer>
+</main>
+</body>
+</html>
