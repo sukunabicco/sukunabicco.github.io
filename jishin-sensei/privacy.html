@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jishin Sensei — Privacy Policy</title>
-<meta name="description" content="Privacy policy for Jishin Sensei. The app collects no personal information; the website contact form receives only what you type into it.">
+<meta name="description" content="Privacy policy for Jishin Sensei. No accounts, ads or analytics in the app; the website contact form receives only what you type into it.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Jishin Sensei">
 <meta property="og:title" content="Jishin Sensei — Privacy Policy">
-<meta property="og:description" content="Privacy policy for Jishin Sensei. The app collects no personal information; the website contact form receives only what you type into it.">
+<meta property="og:description" content="Privacy policy for Jishin Sensei. No accounts, ads or analytics in the app; the website contact form receives only what you type into it.">
 <meta property="og:url" content="https://sukunabicco.github.io/jishin-sensei/privacy.html">
 <meta property="og:image" content="https://sukunabicco.github.io/jishin-sensei/press/img/og-1200x630.png">
 <meta property="og:image:width" content="1200">
@@ -38,13 +38,16 @@
 <body>
 <main>
   <h1>Privacy Policy — Jishin Sensei</h1>
-  <p class="muted">Last updated: September 16, 2026</p>
+  <p class="muted">Last updated: September 17, 2026</p>
 
   <p>Jishin Sensei ("the app") is developed and operated by Makoto Katano.</p>
 
   <h2>The short version</h2>
-  <p>The app has <strong>no accounts, no ads, no analytics, and collects no personal
-  information</strong>. We don't want your data.</p>
+  <p>The app has <strong>no accounts, no ads, and no analytics or advertising
+  SDKs</strong>. It never asks for your name, email address or location, and nothing
+  you type into it is sent to the developer or to any server. Two services receive
+  limited technical data so the app can work: Expo, to deliver content updates, and
+  RevenueCat, to handle tips. Details below.</p>
   <p>The website's contact form is separate from the app: it receives only what you
   type into it. See <a href="#contact-form">Contact form</a> below.</p>
 
@@ -59,12 +62,28 @@
   cards come back. To erase them, empty each entry in the card inside the
   app before deleting it — changes are saved as you make them.</p>
 
+  <h2>Content updates (Expo)</h2>
+  <p>When it starts, the app asks Expo's update service (EAS Update) whether new
+  content is available, and downloads it if so. Each request carries a random
+  identifier that the app creates for this purpose (it is deleted with the app), the
+  app's version and update IDs, and the platform (iOS). Like any server, Expo also
+  sees your IP address.</p>
+  <ul>
+    <li>Expo's privacy policy:
+      <a href="https://expo.dev/privacy">https://expo.dev/privacy</a></li>
+  </ul>
+
   <h2>In-app purchases</h2>
-  <p>Purchases are processed by Apple through the App Store. To deliver purchases and
-  restore them across reinstalls, the app uses <strong>RevenueCat</strong>, a
-  purchase-management service. RevenueCat receives a randomly generated anonymous
-  identifier and App Store purchase receipts. It does not receive your name, email
-  address, Apple Account, or any contact information from us.</p>
+  <p>Tips are processed by Apple through the App Store. To handle them, and to restore
+  a Supporter unlock bought in an earlier version, the app uses
+  <strong>RevenueCat</strong>, a purchase-management service. While the app runs,
+  RevenueCat receives a randomly generated anonymous identifier; the identifier Apple
+  gives this developer's apps on your iPhone (identifierForVendor, not the advertising
+  identifier); basic device and app information (iPhone model, iOS version, app
+  version, preferred languages and App Store country); and, if you leave a tip, the
+  App Store receipt. The developer sees tip totals, including where in the app each
+  tip was offered. RevenueCat does not receive your name, email address, Apple Account
+  or any contact information from us.</p>
   <ul>
     <li>RevenueCat's privacy policy:
       <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></li>
@@ -74,15 +93,17 @@
   <p>The app links to official public-safety resources (such as the Japan
   Meteorological Agency, the Japan National Tourism Organization, and mobile
   carriers' alert-sound demonstration pages). When you open those links, the
-  respective sites' own terms and privacy practices apply.</p>
+  respective sites' own terms and privacy practices apply. The app is independent and
+  is not affiliated with or endorsed by any of these organizations.</p>
 
   <h2>Emergency information disclaimer</h2>
-  <p>The app's safety content is educational and based on official public sources.
+  <p>The app's safety content is educational and based on the sources it cites, mostly
+  Japanese public agencies.
   In an actual emergency, always follow instructions from local authorities.</p>
 
   <h2 id="contact-form">Contact form (website)</h2>
   <p>The website has a contact form, run on Google Forms. It is separate from the app
-  — the app itself still collects no personal information.</p>
+  — the app itself never asks for your name or email address.</p>
   <ul>
     <li><strong>What we receive:</strong> what you type into the form — the topic, your
       email address and your message, and, if you choose to give them, your name (you
@@ -101,7 +122,7 @@
 
   <div lang="ja">
   <h3>お問い合わせフォーム（日本語）</h3>
-  <p>このサイトのお問い合わせフォームは Google フォームで運用しています。アプリとは別のもので、アプリ自体は引き続き個人情報を一切集めません。</p>
+  <p>このサイトのお問い合わせフォームは Google フォームで運用しています。アプリとは別のもので、アプリ自体が、お名前やメールアドレスを求めることはありません。</p>
   <ul>
     <li><strong>受け取る情報:</strong> フォームに入力された内容（用件・メールアドレス・お問い合わせ内容。任意でお名前（匿名でも可）、ご要望、施設名・会社名、アプリを知ったきっかけ）</li>
     <li><strong>利用目的:</strong> ご返信と、アプリの改善の検討にだけ使います。メールマガジンへの登録、第三者への提供・販売はしません</li>
