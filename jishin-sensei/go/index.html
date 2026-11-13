@@ -10,7 +10,7 @@
   iPhone and iPad go straight to the App Store (the partner campaign link, as
   before); every other device goes to the browser version's Emergency tab,
   which has the numbers, the communication cards and the sign dictionary.
-  ?lang=en|ja|ko|zh-Hans|zh-Hant|vi (any case) presets the browser version's
+  ?lang=en|ja|ko|zh-Hans|zh-Hant|vi|id (any case) presets the browser version's
   language when the visitor has not chosen one yet (the app reads the same
   localStorage key). ?card= and ?scene= are passed on to the cards. If the
   script is blocked or fails (some in-app browsers), the two links below appear
@@ -44,6 +44,7 @@
     <li>iPhone/iPad 请在 App Store 获取免费 App；其他设备可在浏览器中打开卡片和紧急电话。</li>
     <li>iPhone/iPad 請在 App Store 取得免費 App；其他裝置可在瀏覽器中打開卡片和緊急電話。</li>
     <li>iPhone và iPad sẽ chuyển đến ứng dụng miễn phí trên App Store; mọi thiết bị khác sẽ mở thẻ và các số khẩn cấp trong trình duyệt.</li>
+    <li>iPhone dan iPad: aplikasi gratis di App Store. Ponsel dan komputer lain: buka versi browser – kartu, nomor darurat, dan kamus tanda.</li>
   </ul>
   <noscript><style>main{visibility:visible}</style></noscript>
 </main>
@@ -55,7 +56,7 @@
   try {
     var STORE = 'https://apps.apple.com/app/apple-store/id6799572857?pt=129284573&ct=partner&mt=8';
     var APP = '/jishin-sensei/app/';
-    var LANGS = { en: 'en', ja: 'ja', ko: 'ko', 'zh-hans': 'zh-Hans', 'zh-hant': 'zh-Hant', vi: 'vi' };
+    var LANGS = { en: 'en', ja: 'ja', ko: 'ko', 'zh-hans': 'zh-Hans', 'zh-hant': 'zh-Hant', vi: 'vi', id: 'id' };
     var q = new URLSearchParams(location.search);
     var lang = LANGS[String(q.get('lang') || '').toLowerCase()];
     if (lang) {
